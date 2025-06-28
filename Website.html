@@ -2,52 +2,53 @@
 <html lang="en">
 
 <head>
+    
     <meta charset="UTF-8">
     <title>Janelle Lee</title>
+
+    <style>
+        body {
+            background-image: url("https://i.pinimg.com/originals/db/ef/7e/dbef7e5e9f5d11db75f4fee9e9ea8dee.jpg");
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+        }
+
+        #div_nav {
+            width: 10%;
+            margin: 2rem;
+            display: flex;
+            flex-direction: column;
+            position: sticky;
+            top: 2rem;
+        }
+
+        .button {
+            background-color: aliceblue;
+            border: cornflowerblue;
+            padding: 10% 2%;
+            text-align: center;
+            display: inline-flex;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: cornflowerblue;
+        }
+
+    </style>
+
 </head>
 
     <body>
 
-        <style>
-            body {
-                background-image: url("https://i.pinimg.com/originals/db/ef/7e/dbef7e5e9f5d11db75f4fee9e9ea8dee.jpg");
-                background-repeat: no-repeat;
-                background-attachment: scroll;
-                background-size: cover;
-            }
-
-            #div {
-                background-color: lightblue;
-                width: 35%;
-                margin: 2rem;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-
-            #Janelle_Lee {
-                color: black;
-                text-align: center;
-                font-family:Verdana, Geneva, Tahoma, sans-serif;
-
-            }
-
-            .button {
-                background-color: aliceblue;
-                border: none;
-                padding: 1% 2%;
-                text-align: center;
-                display: inline-block;
-                cursor: pointer;
-            }
-
-        </style>
-
-        <div id="div">
-            <h1 id="Janelle_Lee">Hey, this is Janelle!</h1>
+        <div id="div_nav">
+            <button class="button">About me</button>
+            <button class="button">Education</button>
+            <button class="button">Fun facts</button>
+            <button class="button">Socials</button>
         </div>
-
-        <button class="button" id="aboutme_button">About me</button>
+    
 
     </body>
 </html>
