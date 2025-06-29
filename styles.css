@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+#main_background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background-image: url("idk something genshin.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+
+#div_nav {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* space between buttons */
+    position: sticky;
+    top: 10%; /* sticks near top while scrolling */
+    color: antiquewhite;
+}
+
+#div_aboutme {
+    margin: 5%;
+    padding-right: 20%;
+    color: antiquewhite;
+}
+
+#header_section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* top-align */
+    justify-content: flex-start;
+    padding: 5%;
+    padding-top: 20%;
+    padding-left: 10%;
+    gap: 2rem; /* optional: space between nav and about me */
+}
+
+.button {
+    background-color: antiquewhite;
+    border: cornflowerblue;
+    padding: 10% 2%;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 2rem;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: darksalmon;
+}

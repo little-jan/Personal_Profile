@@ -2,53 +2,37 @@
 <html lang="en">
 
 <head>
-    
+
     <meta charset="UTF-8">
     <title>Janelle Lee</title>
-
-    <style>
-        body {
-            background-image: url("https://i.pinimg.com/originals/db/ef/7e/dbef7e5e9f5d11db75f4fee9e9ea8dee.jpg");
-            background-repeat: no-repeat;
-            background-attachment: scroll;
-            background-size: cover;
-        }
-
-        #div_nav {
-            width: 10%;
-            margin: 2rem;
-            display: flex;
-            flex-direction: column;
-            position: sticky;
-            top: 2rem;
-        }
-
-        .button {
-            background-color: aliceblue;
-            border: cornflowerblue;
-            padding: 10% 2%;
-            text-align: center;
-            display: inline-flex;
-            cursor: pointer;
-        }
-
-        .button:hover {
-            background-color: cornflowerblue;
-        }
-
-    </style>
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 
     <body>
 
-        <div id="div_nav">
-            <button class="button">About me</button>
-            <button class="button">Education</button>
-            <button class="button">Fun facts</button>
-            <button class="button">Socials</button>
+        <div id="main_background"></div>
+
+        <div id="header_section">
+            <div id="div_nav">
+                <button class="button">
+                    <a href="#name">About me</a>
+                </button>
+                <p></p>
+                <button class="button">Fun facts</button>
+                <p></p>
+                <button class="button">Socials</button>
+            </div>
+        
+            <div id="div_aboutme">
+                <h1 id="name">Hey, this is Janelle!</h1>
+                <p>I'm currently a 2nd year UWA student for Bachelor of Advanced Computer Science, majoring in Artificial Intelligence.</p>
+                <br>
+                <p>Ever since I was young, I have had a passion for coding and working out how things work.
+                    Outside of coding, I partake in other hobbies such as digital art, playing the piano
+                </p>
+            </div>
         </div>
-    
 
     </body>
 </html>
