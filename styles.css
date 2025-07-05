@@ -112,13 +112,35 @@ section{
     font-size: 2.5rem;
     color: var(--main-color);
     transition: 0.3s ease-in-out;
-    margin-top: 3rem;
     padding-left: 11rem;
 }
 
 .icon {
     height: 5rem;
     width: 5rem;
+}
+
+.typed-out{
+    overflow: hidden;
+    border-right: .15em solid var(--main-color);
+    font-size: 1.6rem;
+    width: 0;
+    animation: 
+        typing 10s forwards infinite;
+    margin-top: 2rem;
+}
+
+.text-animation {
+    display: inline-flex;
+    white-space: nowrap;
+    gap: 2rem;
+}
+
+@keyframes typing {
+    0% {width: 0;}
+    35% {width: 100%;}
+    60% {width: 100%;}
+    100% {width: 0;}
 }
 
 
