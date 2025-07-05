@@ -22,7 +22,7 @@ html, body {
     left: 0;
     width: 100%;
     padding: 4rem 2% 4rem;
-    background: rgba(32, 15, 62, 0.568);
+    background: rgba(32, 15, 62, 0.381);
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-around;
@@ -61,12 +61,65 @@ html, body {
     border-bottom: 3px solid var(--main-color);
 }
 
-#menu {
-    font-size: 3.6rem;
-    color: var(--main-color);
-    display: none;
+section{
+    min-height: 100vh;
+    padding: 10rem 12% 10rem;
 }
 
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    text-align: left;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.home-content h3{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-size: 3.5rem;
+}
+
+.home-content h1{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    line-height: 1;
+}
+
+.home-content p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.8;
+    max-width: 1000px;
+}
+
+.social-icons {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.5rem;
+    height: 4.5rem;
+    background: transparent;
+    font-size: 2.5rem;
+    color: var(--main-color);
+    transition: 0.3s ease-in-out;
+    margin-top: 3rem;
+    padding-left: 11rem;
+}
+
+.icon {
+    height: 5rem;
+    width: 5rem;
+}
 
 
 
