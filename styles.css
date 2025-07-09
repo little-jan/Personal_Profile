@@ -63,7 +63,7 @@ html, body {
 
 section{
     min-height: 100vh;
-    padding: 10rem 12% 10rem;
+    padding-top: 10rem;
 }
 
 .home {
@@ -137,6 +137,7 @@ section{
         typing 10s forwards infinite,
         blink-caret .75s step-end infinite;
     margin-top: 2rem;
+    padding-top: 2rem;
 }
 
 .text-animation {
@@ -186,6 +187,7 @@ section{
 #div_aboutme {
     padding-right: 20%;
     padding-left: 20%;
+    padding-bottom: 15%;
 }
 
 #gradpic {
