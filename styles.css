@@ -191,14 +191,16 @@ section{
 }
 
 #gradpic {
-    height: 30rem;
+    height: 40rem;
     padding-top: 5%;
 }
 
 #history {
     padding-top: 20%;
-    padding-left: 15%;
-    padding-right: 15%;
+}
+
+#employment {
+    padding-top: 15%;
 }
 
 .wrapper {
@@ -206,8 +208,10 @@ section{
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 5%;
-    padding-left: 10%;
+    padding-top: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 20%;
     gap: 2rem; 
     color: antiquewhite;
 }
